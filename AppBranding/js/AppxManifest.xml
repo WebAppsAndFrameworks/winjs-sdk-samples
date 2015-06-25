@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest">
+  <Identity Name="Microsoft.SDKSamples.AppBranding" Version="1.0.0.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"  ResourceId="neutral" />
+  <Properties>
+    <DisplayName>AppBranding SDK Sample</DisplayName>
+    <PublisherDisplayName>Microsoft Corporation</PublisherDisplayName>
+    <Description>AppBranding SDK Sample</Description>
+    <Logo>images\storeLogo-sdk.png</Logo>
+  </Properties>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Prerequisites>
+    <OSMinVersion>6.2.1</OSMinVersion>
+    <OSMaxVersionTested>6.2.1</OSMaxVersionTested>
+  </Prerequisites>
+  <Applications>
+    <Application Id="Microsoft.SDKSamples.AppBranding" StartPage="default.html">
+      <VisualElements DisplayName="AppBranding" Logo="images\squareTile-sdk.png" SmallLogo="images\smallTile-sdk.png" Description="SDK Sample" ForegroundText="dark" BackgroundColor="#FFFFFF">
+        <DefaultTile ShortName="AppBrandSDK" ShowName="allLogos" />
+        <SplashScreen BackgroundColor="white" Image="images\splash-sdk.png" />
+      </VisualElements>
+    </Application>
+  </Applications>
+</Package>

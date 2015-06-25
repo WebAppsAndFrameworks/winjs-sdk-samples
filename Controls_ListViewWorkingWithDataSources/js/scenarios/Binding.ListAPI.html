@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="Binding.ListAPI.js"></script>
+</head>
+<body>
+    <span id="scenarioTitle" data-win-fragmentadded="Scenario2Name.initialize">Using the
+        Binding.List API</span>
+    <div class="item" id="scenarioInput">
+        <p>
+            This scenario demonstrates how to programmatically manipulate items in a Binding.List
+            Data Source used with a ListView. Binding.List is an in-memory datasource with API
+            like javascript Arrays. The sample generates a set of random letters and uses a
+            Binding.List to store them.
+        </p>
+        <div>
+            <button id="shuffle" class="action secondary">
+                Shuffle tiles
+            </button>
+            <button id="removeSelected" class="action secondary">
+                Remove selected tile
+            </button>
+            <button id="swapSelected" class="action secondary">
+                Swap selected tile
+            </button>
+            <button id="addTile" class="action secondary">
+                Add tile
+            </button>
+        </div>
+    </div>
+    <div class="item" id="scenarioOutput">
+        <div id="tileTemplate" data-win-control="WinJS.Binding.Template">
+            <div class="tileTempl">
+                <h6 class="counter" data-win-bind="innerText: counter">
+                </h6>
+                <h1 class="letter" data-win-bind="innerText: letter">
+                </h1>
+            </div>
+        </div>
+        <div id="listView2" class="box" data-win-control="WinJS.UI.ListView" data-win-options="{ selectionMode: 'multi', reorderable: true,  layout: { type: WinJS.UI.GridLayout, maxRows: 1 } }">
+        </div>
+    </div>
+</body>
+</html>
