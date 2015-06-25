@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013 for Windows
-VisualStudioVersion = 12.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Controls_Flyout", "Controls_Flyout.jsproj", "{373B6FA1-D9A2-42E2-B9CC-D6D4BE0E36A5}"
 EndProject

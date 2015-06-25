@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013 for Windows
-VisualStudioVersion = 12.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.22609.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "Controls_NavBar", "Controls_NavBar.jsproj", "{9EE3BA23-05BA-402A-A8B6-F3281C3F8B2C}"
 EndProject
